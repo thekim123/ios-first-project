@@ -3,27 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		74ADF1012AEAA77C002EB5E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ADF1002AEAA77C002EB5E4 /* AppDelegate.swift */; };
 		74ADF1032AEAA77C002EB5E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ADF1022AEAA77C002EB5E4 /* SceneDelegate.swift */; };
-		74ADF1052AEAA77C002EB5E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ADF1042AEAA77C002EB5E4 /* ViewController.swift */; };
+		74ADF1052AEAA77C002EB5E4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ADF1042AEAA77C002EB5E4 /* MainViewController.swift */; };
 		74ADF1082AEAA77C002EB5E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74ADF1062AEAA77C002EB5E4 /* Main.storyboard */; };
 		74ADF10A2AEAA77E002EB5E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74ADF1092AEAA77E002EB5E4 /* Assets.xcassets */; };
 		74ADF10D2AEAA77E002EB5E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74ADF10B2AEAA77E002EB5E4 /* LaunchScreen.storyboard */; };
+		74ADF1192AEBE953002EB5E4 /* Animation - 1698410648330.json in Resources */ = {isa = PBXBuildFile; fileRef = 74ADF1182AEBE953002EB5E4 /* Animation - 1698410648330.json */; };
+		75466C9EEB3C76F3BD6A6B1D /* Pods_NiceApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A172E805D84539CB946A1639 /* Pods_NiceApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		168F73B89BDEA3F7FD6F341A /* Pods-NiceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceApp.debug.xcconfig"; path = "Target Support Files/Pods-NiceApp/Pods-NiceApp.debug.xcconfig"; sourceTree = "<group>"; };
 		74ADF0FD2AEAA77C002EB5E4 /* NiceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74ADF1002AEAA77C002EB5E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74ADF1022AEAA77C002EB5E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		74ADF1042AEAA77C002EB5E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74ADF1042AEAA77C002EB5E4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		74ADF1072AEAA77C002EB5E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74ADF1092AEAA77E002EB5E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74ADF10C2AEAA77E002EB5E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74ADF10E2AEAA77E002EB5E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74ADF1182AEBE953002EB5E4 /* Animation - 1698410648330.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Animation - 1698410648330.json"; path = "../../../../Downloads/Animation - 1698410648330.json"; sourceTree = "<group>"; };
+		8A6EB1D19427F5CE1350A73A /* Pods-NiceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceApp.release.xcconfig"; path = "Target Support Files/Pods-NiceApp/Pods-NiceApp.release.xcconfig"; sourceTree = "<group>"; };
+		A172E805D84539CB946A1639 /* Pods_NiceApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiceApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75466C9EEB3C76F3BD6A6B1D /* Pods_NiceApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		541E7E4BD2F7567EBCF5D763 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				168F73B89BDEA3F7FD6F341A /* Pods-NiceApp.debug.xcconfig */,
+				8A6EB1D19427F5CE1350A73A /* Pods-NiceApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6D8856A302FD0EA4ADC046E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A172E805D84539CB946A1639 /* Pods_NiceApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		74ADF0F42AEAA77C002EB5E4 = {
 			isa = PBXGroup;
 			children = (
 				74ADF0FF2AEAA77C002EB5E4 /* NiceApp */,
 				74ADF0FE2AEAA77C002EB5E4 /* Products */,
+				6D8856A302FD0EA4ADC046E7 /* Frameworks */,
+				541E7E4BD2F7567EBCF5D763 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +83,24 @@
 		74ADF0FF2AEAA77C002EB5E4 /* NiceApp */ = {
 			isa = PBXGroup;
 			children = (
+				74ADF1182AEBE953002EB5E4 /* Animation - 1698410648330.json */,
+				74ADF1152AEAA78D002EB5E4 /* ViewControllers */,
 				74ADF1002AEAA77C002EB5E4 /* AppDelegate.swift */,
 				74ADF1022AEAA77C002EB5E4 /* SceneDelegate.swift */,
-				74ADF1042AEAA77C002EB5E4 /* ViewController.swift */,
 				74ADF1062AEAA77C002EB5E4 /* Main.storyboard */,
 				74ADF1092AEAA77E002EB5E4 /* Assets.xcassets */,
 				74ADF10B2AEAA77E002EB5E4 /* LaunchScreen.storyboard */,
 				74ADF10E2AEAA77E002EB5E4 /* Info.plist */,
 			);
 			path = NiceApp;
+			sourceTree = "<group>";
+		};
+		74ADF1152AEAA78D002EB5E4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				74ADF1042AEAA77C002EB5E4 /* MainViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74ADF1112AEAA77E002EB5E4 /* Build configuration list for PBXNativeTarget "NiceApp" */;
 			buildPhases = (
+				B4E8A26497ABA4EF1D9471ED /* [CP] Check Pods Manifest.lock */,
 				74ADF0F92AEAA77C002EB5E4 /* Sources */,
 				74ADF0FA2AEAA77C002EB5E4 /* Frameworks */,
 				74ADF0FB2AEAA77C002EB5E4 /* Resources */,
+				7255B39313D1EC5C180CE085 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74ADF1192AEBE953002EB5E4 /* Animation - 1698410648330.json in Resources */,
 				74ADF10D2AEAA77E002EB5E4 /* LaunchScreen.storyboard in Resources */,
 				74ADF10A2AEAA77E002EB5E4 /* Assets.xcassets in Resources */,
 				74ADF1082AEAA77C002EB5E4 /* Main.storyboard in Resources */,
@@ -132,12 +171,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7255B39313D1EC5C180CE085 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiceApp/Pods-NiceApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiceApp/Pods-NiceApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NiceApp/Pods-NiceApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4E8A26497ABA4EF1D9471ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NiceApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		74ADF0F92AEAA77C002EB5E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74ADF1052AEAA77C002EB5E4 /* ViewController.swift in Sources */,
+				74ADF1052AEAA77C002EB5E4 /* MainViewController.swift in Sources */,
 				74ADF1012AEAA77C002EB5E4 /* AppDelegate.swift in Sources */,
 				74ADF1032AEAA77C002EB5E4 /* SceneDelegate.swift in Sources */,
 			);
@@ -283,6 +364,7 @@
 		};
 		74ADF1122AEAA77E002EB5E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 168F73B89BDEA3F7FD6F341A /* Pods-NiceApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +383,7 @@
 		};
 		74ADF1132AEAA77E002EB5E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A6EB1D19427F5CE1350A73A /* Pods-NiceApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
